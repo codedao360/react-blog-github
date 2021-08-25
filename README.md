@@ -1,223 +1,143 @@
-<h1 align="center">
-  React Blog 
-</h1>
+# Welcome to StackEdit!
 
-<h2 align="center">
-  React + Github Issues 👉 Your Personal Blog 🔥 
-</h2>
-
-<p align="center">
-  React Blog is a personal blog system build on React that helps you create your own personal blog using Github Issues  
-</p>
+Hi! I'm your first Markdown file in **StackEdit**. If you want to learn about StackEdit, you can read me. If you want to play with Markdown, you can edit me. Once you have finished with me, you can create new files by opening the **file explorer** on the left corner of the navigation bar.
 
 
+# Files
 
-<p align="center"> 
-  <kbd>
-<img src="src/logo.png"></img>
-  </kbd>
-</p>
+StackEdit stores your files in your browser, which means all your files are automatically saved locally and are accessible **offline!**
 
+## Create files and folders
 
-<p align="center"> 
-  <kbd>
-<img src="src/kentsTweet.png"></img>
-  </kbd>
-</p>
+The file explorer is accessible using the button in left corner of the navigation bar. You can create a new file by clicking the **New file** button in the file explorer. You can also create folders by clicking the **New folder** button.
 
----
+## Switch to another file
 
-## :fire: Features
+All your files and folders are presented as a tree in the file explorer. You can switch from one to another by clicking a file in the tree.
 
-:white_check_mark: Own your content \
-:white_check_mark: Write using Markdown On Github Issues \
-:white_check_mark: Syntax/Code Highlighting \
-:white_check_mark: Fully customizable \
-:white_check_mark: Tags - Topics  \
-:white_check_mark: Links \
-:white_check_mark: Reactions  \
-:white_check_mark: View Comments  \
-:white_check_mark: Images \
-:white_check_mark: Minutes Read \
-:white_check_mark: Beautiful UI Like Medium \
-:white_check_mark: Easy deployment: Using Github Pages \
-:white_check_mark: Instant Effects on Blog when changing github issues \
-:white_check_mark: Beautiful blockquote   
+## Rename a file
+
+You can rename the current file by clicking the file name in the navigation bar or by clicking the **Rename** button in the file explorer.
+
+## Delete a file
+
+You can delete the current file by clicking the **Remove** button in the file explorer. The file will be moved into the **Trash** folder and automatically deleted after 7 days of inactivity.
+
+## Export a file
+
+You can export the current file by clicking **Export to disk** in the menu. You can choose to export the file as plain Markdown, as HTML using a Handlebars template or as a PDF.
 
 
-## :link: Live Demo
+# Synchronization
 
-Here's a [live demo](https://saadpasta.github.io/react-blog-github/#/)
+Synchronization is one of the biggest features of StackEdit. It enables you to synchronize any file in your workspace with other files stored in your **Google Drive**, your **Dropbox** and your **GitHub** accounts. This allows you to keep writing on other devices, collaborate with people you share the file with, integrate easily into your workflow... The synchronization mechanism takes place every minute in the background, downloading, merging, and uploading file modifications.
 
-Github [Issues / Blogs](https://github.com/saadpasta/react-blog-github/issues)
+There are two types of synchronization and they can complement each other:
+
+- The workspace synchronization will sync all your files, folders and settings automatically. This will allow you to fetch your workspace on any other device.
+	> To start syncing your workspace, just sign in with Google in the menu.
+
+- The file synchronization will keep one file of the workspace synced with one or multiple files in **Google Drive**, **Dropbox** or **GitHub**.
+	> Before starting to sync files, you must link an account in the **Synchronize** sub-menu.
+
+## Open a file
+
+You can open a file from **Google Drive**, **Dropbox** or **GitHub** by opening the **Synchronize** sub-menu and clicking **Open from**. Once opened in the workspace, any modification in the file will be automatically synced.
+
+## Save a file
+
+You can save any file of the workspace to **Google Drive**, **Dropbox** or **GitHub** by opening the **Synchronize** sub-menu and clicking **Save on**. Even if a file in the workspace is already synced, you can save it to another location. StackEdit can sync one file with multiple locations and accounts.
+
+## Synchronize a file
+
+Once your file is linked to a synchronized location, StackEdit will periodically synchronize it by downloading/uploading any modification. A merge will be performed if necessary and conflicts will be resolved.
+
+If you just have modified your file and you want to force syncing, click the **Synchronize now** button in the navigation bar.
+
+> **Note:** The **Synchronize now** button is disabled if you have no file to synchronize.
+
+## Manage file synchronization
+
+Since one file can be synced with multiple locations, you can list and manage synchronized locations by clicking **File synchronization** in the **Synchronize** sub-menu. This allows you to list and remove synchronized locations that are linked to your file.
 
 
---- 
+# Publication
 
-## 🚀 Get Up and Running in 10 Minutes
-You can get a react-blog site up and running on your local dev environment in 10 minutes with these five steps:
+Publishing in StackEdit makes it simple for you to publish online your files. Once you're happy with a file, you can publish it to different hosting platforms like **Blogger**, **Dropbox**, **Gist**, **GitHub**, **Google Drive**, **WordPress** and **Zendesk**. With [Handlebars templates](http://handlebarsjs.com/), you have full control over what you export.
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+> Before starting to publish, you must link an account in the **Publish** sub-menu.
 
-You'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer
+## Publish a File
 
-```
-node@v10.16.0 or higher
-npm@6.9.0 or higher
-git@2.17.1 or higher
+You can publish your file by opening the **Publish** sub-menu and by clicking **Publish to**. For some locations, you can choose between the following formats:
 
-```
+- Markdown: publish the Markdown text on a website that can interpret it (**GitHub** for instance),
+- HTML: publish the file converted to HTML via a Handlebars template (on a blog for example).
 
-### 1. From your command line, clone and run react-blog-github:
+## Update a publication
 
-```bash
-# Clone this repository
-$ git clone https://github.com/saadpasta/react-blog-github.git
+After publishing, StackEdit keeps your file linked to that publication which makes it easy for you to re-publish it. Once you have modified your file and you want to update your publication, click on the **Publish now** button in the navigation bar.
 
-# Go into the repository
-$ cd react-blog-github
+> **Note:** The **Publish now** button is disabled if your file has not been published yet.
 
-# Install dependencies
-$ npm install
+## Manage file publication
 
-```
+Since one file can be published to multiple locations, you can list and manage publish locations by clicking **File publication** in the **Publish** sub-menu. This allows you to list and remove publication locations that are linked to your file.
 
-### 2. **Generate a Github Personal Access Token.**
 
-Generate a Github personal access token using these [Instructions](https://help.github.com/en/github/authenticating-to-github/creating-a-personal-access-token-for-the-command-line) `Make sure you don't select any scope just generate a simple token without any scope`
+# Markdown extensions
 
-After that copy your generated token and then encode your token into base 64 using this [Website](http://www.utilities-online.info/base64/)
+StackEdit extends the standard Markdown syntax by adding extra **Markdown extensions**, providing you with some nice features.
 
-`Copy your base64 converted token`
+> **ProTip:** You can disable any **Markdown extension** in the **File properties** dialog.
 
-### 3. Create a GitHub App
 
-Go on the following URL: https://github.com/settings/apps/new
+## SmartyPants
 
-There are a few fields to fill carefully:
-- Homepage URL: https://your_username.github.io/react-blog-github/
-- Callback URL: https://your_username.github.io/react-blog-github/
-- Check "Request user authorization (OAuth) during installation"
+SmartyPants converts ASCII punctuation characters into "smart" typographic punctuation HTML entities. For example:
 
-In permissions & events, set `Read & Write` on Issues
-In "Install App", install the app on your user and select your repository
+|                |ASCII                          |HTML                         |
+|----------------|-------------------------------|-----------------------------|
+|Single backticks|`'Isn't this fun?'`            |'Isn't this fun?'            |
+|Quotes          |`"Isn't this fun?"`            |"Isn't this fun?"            |
+|Dashes          |`-- is en-dash, --- is em-dash`|-- is en-dash, --- is em-dash|
 
-### 4. **Change `/src/config.js`.**
-Go to your cloned repository and make the following changes in `/src/config.js`
 
-```javascript
-export const config = {
-  // Your Github Converted Token To Know How To Get Your Token Look at Readme.md
-  githubConvertedToken: "Your token here",
+## KaTeX
 
-  // Your Github UserName
-  githubUserName: "Your username here",
+You can render LaTeX mathematical expressions using [KaTeX](https://khan.github.io/KaTeX/):
 
-  // Your Github Repo Name Where You Have your issues as Blog
-  githubRepo: "Your repo's name here",
+The *Gamma function* satisfying $\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N$ is via the Euler integral
 
-  // Set it to true if you have a Github app to add to this project
-  // and fill the client ID & secret
-  enableOAuth: true,
-  OAuthClientID: 'Github App Client ID',
-  OAuthSecret: 'Github App Secret',
+$$
+\Gamma(z) = \int_0^\infty t^{z-1}e^{-t}dt\,.
+$$
 
-  // Your Personal Blog Title
-  title : "Title of your blog" ,
+> You can find more information about **LaTeX** mathematical expressions [here](http://meta.math.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference).
 
-  // Your Personal Blog Subtitle
-  subtitle : "Subtitle of your blog",
 
-  // Header customization
-  header: {
-    backgroundColor: '#f1f6f8', // can be a CSS gradient
-    titleColor: '#ff5252',
-    subtitleColor: '#37474f',
-  },
-};
+## UML diagrams
+
+You can render UML diagrams using [Mermaid](https://mermaidjs.github.io/). For example, this will produce a sequence diagram:
+
+```mermaid
+sequenceDiagram
+Alice ->> Bob: Hello Bob, how are you?
+Bob-->>John: How about you John?
+Bob--x Alice: I am good thanks!
+Bob-x John: I am good thanks!
+Note right of John: Bob thinks a long<br/>long time, so long<br/>that the text does<br/>not fit on a row.
+
+Bob-->Alice: Checking with John...
+Alice->John: Yes... John, how are you?
 ```
 
-### 5. **Write A Blog.**
-After doing following changes now you just need to write a blog on repository issues that you have mentioned in your `config.js`
+And this will produce a flow chart:
 
-- Open your repository [github issues](https://github.com/saadpasta/react-blog-github/issues)
-- Create a new issue 
-- Now write your blog in github issue in markdown. You can also use [slack edit](https://stackedit.io/app#) to write your markdown
-- Add a label `blog` on your github issue to make it different from other standard issues. Keep in mind `blog` label is mandatory otherwise it won't show on your website.
-
-### 6. **Start Your React App.**
-That's it now you just need to start your react application From your command line run . 
-
-```bash
-# Run
-$ npm start
-
+```mermaid
+graph LR
+A[Square Rect] -- Link text --> B((Circle))
+A --> C(Round Rect)
+B --> D{Rhombus}
+C --> D
 ```
-
---- 
-
-## 🛠️ Technologies used 
-This project is only possible thanks to the awesomeness of the following projects:
-
-- [React](https://reactjs.org/)
-- [graphql](https://graphql.org/) 
-- [apollo-boost](https://www.apollographql.com/docs/react/get-started/) 
-- [GitHub](https://github.com)
-- [markdown-to-jsx](https://probablyup.com/markdown-to-jsx/)
-- [React Syntax Highlighter](https://github.com/conorhastings/react-syntax-highlighter)
-- [react-reactions](https://casesandberg.github.io/react-reactions/)
-
-
-## :seedling: Inspiration
-This project is inspired from many other similar projects. 
-
-- [gatsby-theme-blog-with-github](https://github.com/mddanishyusuf/gatsby-theme-blog-with-github)
-- [utterances](https://github.com/utterance/utterances)
-
-
-
-## 🤝 Contributing
-
-Any idea on how we can make this more awesome ? [Open a new issue](https://github.com/saadpasta/react-blog-github/issues)!  We need all the help we can get to make this project awesome!
-
-## :boom: Todo
-- Add Comment From Github
-- Authentication using Github
-- Footer 
-- Header
-- Social Media Sharing
-
-
-## 📄 License 
-
-This project is licensed under the MIT License - see the [LICENSE.md](./LICENSE) file for details
-
-## Contributors ✨
-
-Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
-
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-<table>
-  <tr>
-    <td align="center"><a href="http://github.com/MuhammadHammad"><img src="https://avatars0.githubusercontent.com/u/37264033?v=4?s=100" width="100px;" alt=""/><br /><sub><b>SyedMuhammadHammadGhani</b></sub></a><br /><a href="https://github.com/saadpasta/react-blog-github/commits?author=Muhammad-Hammad" title="Documentation">📖</a></td>
-    <td align="center"><a href="http://saadpasta.github.io"><img src="https://avatars2.githubusercontent.com/u/23307811?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Saad Pasta</b></sub></a><br /><a href="https://github.com/saadpasta/react-blog-github/commits?author=saadpasta" title="Code">💻</a> <a href="https://github.com/saadpasta/react-blog-github/commits?author=saadpasta" title="Documentation">📖</a> <a href="#design-saadpasta" title="Design">🎨</a> <a href="#maintenance-saadpasta" title="Maintenance">🚧</a></td>
-    <td align="center"><a href="https://github.com/jvm-odoo"><img src="https://avatars0.githubusercontent.com/u/9156538?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jason Van Malder</b></sub></a><br /><a href="https://github.com/saadpasta/react-blog-github/commits?author=jvm-odoo" title="Code">💻</a> <a href="#infra-jvm-odoo" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a></td>
-    <td align="center"><a href="https://github.com/viveksharmaui"><img src="https://avatars1.githubusercontent.com/u/28563357?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Slim Coder</b></sub></a><br /><a href="https://github.com/saadpasta/react-blog-github/commits?author=viveksharmaui" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/waleed345"><img src="https://avatars3.githubusercontent.com/u/42063633?v=4?s=100" width="100px;" alt=""/><br /><sub><b>waleed345</b></sub></a><br /><a href="https://github.com/saadpasta/react-blog-github/commits?author=waleed345" title="Code">💻</a></td>
-    <td align="center"><a href="https://abhishekashyap.studio/"><img src="https://avatars3.githubusercontent.com/u/29458374?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Abhishek Kashyap</b></sub></a><br /><a href="https://github.com/saadpasta/react-blog-github/commits?author=abhishekashyap" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/xzebra"><img src="https://avatars1.githubusercontent.com/u/20362769?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Zebra</b></sub></a><br /><a href="https://github.com/saadpasta/react-blog-github/commits?author=xzebra" title="Code">💻</a> <a href="#ideas-xzebra" title="Ideas, Planning, & Feedback">🤔</a></td>
-  </tr>
-  <tr>
-    <td align="center"><a href="https://github.com/jaeyeonling"><img src="https://avatars0.githubusercontent.com/u/40811999?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jaeyeon Kim</b></sub></a><br /><a href="https://github.com/saadpasta/react-blog-github/commits?author=jaeyeonling" title="Code">💻</a></td>
-    <td align="center"><a href="https://parthiv.dev"><img src="https://avatars.githubusercontent.com/u/76069950?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Parthiv</b></sub></a><br /><a href="https://github.com/saadpasta/react-blog-github/commits?author=codebytec" title="Documentation">📖</a></td>
-  </tr>
-</table>
-
-<!-- markdownlint-restore -->
-<!-- prettier-ignore-end -->
-
-<!-- ALL-CONTRIBUTORS-LIST:END -->
-
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
